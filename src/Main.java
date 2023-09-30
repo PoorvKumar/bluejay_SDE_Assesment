@@ -60,7 +60,7 @@ public class Main
             System.out.println("Employees who worked for 7 days consecutively are:  "+empMap1.size());
             for(Map.Entry<String,Employee> entry:empMap1.entrySet())
             {
-                System.out.println(entry.getValue());
+                System.out.println(entry.getValue()); //toString() function overidded in class Employee
             }
             System.out.println();
 
@@ -77,7 +77,7 @@ public class Main
             System.out.println("Employees who worked for less than 10 but greater than 1 hours time in shifts are: "+empMap2.size());
             for(Map.Entry<String,Employee> entry:empMap2.entrySet())
             {
-                System.out.println(entry.getValue());
+                System.out.println(entry.getValue()); //toString() function overidded in class Employee
             }
             System.out.println();
 
@@ -94,7 +94,7 @@ public class Main
             System.out.println("Employees who worked more than 14 hours time in shifts are: "+empMap3.size());
             for(Map.Entry<String,Employee> entry:empMap3.entrySet())
             {
-                System.out.println(entry.getValue());
+                System.out.println(entry.getValue()); //toString() function overidded in class Employee
             }
             System.out.println();
 
