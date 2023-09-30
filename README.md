@@ -1,7 +1,7 @@
 # SDE Assesment
 
 This assessment is done using Java programming language. 
-Even though there are multiple records of same employee, I have stored them in a HashMap and returned the Name, PositionId and PositionStatus of Distinct employees, along wiht number of distinct employees for each part
+Even though there are multiple records of same employee, I have stored them in a HashMap and returned the Name, PositionId and PositionStatus of Distinct employees, along with number of distinct employees for each part
 Answers: 
 
 - a.) Worked consecutively 7 days: 96 employees, as someone who worked more than 7 days also worked 7 days consecutively
